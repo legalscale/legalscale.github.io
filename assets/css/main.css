@@ -1954,7 +1954,7 @@ ul.icons {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -2150,27 +2150,29 @@ ul.icons {
     right: 50%;
     width: auto; }
   #banner:before {
-    -moz-transition: opacity 3s ease;
-    -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
-    transition: opacity 3s ease;
-    -moz-transition-delay: 1.25s;
-    -webkit-transition-delay: 1.25s;
-    -ms-transition-delay: 1.25s;
-    transition-delay: 1.25s;
+    -moz-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    /* background: #214a7b; */
     background: #111111;
     content: '';
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.45;
+    opacity: 0;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 1; }
   #banner:after {
+    
     /* background: linear-gradient(135deg, #fff 0%, #111111 74%); */
-    background: rgba(0,0,0,0.6);
+    /* background: rgba(0,0,0,0.6); */
     content: ' ';
     display: block;
     height: 100%;
@@ -2178,7 +2180,7 @@ ul.icons {
     opacity: 0.6;
     position: absolute;
     top: 0;
-    webkit-linear-gradientidth: 100%;
+    /* webkit-linear-gradientidth: 100%; */
     width: 100%;
     z-index: 1; }
   #banner.small {
