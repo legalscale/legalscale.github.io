@@ -1725,9 +1725,11 @@ ul.actions {
         padding-top: 0.625rem; }
   .row {
     margin-top: 0;
-    margin-left: -1.25rem; }
+    /* margin-left: -1.25rem;  */
+  }
     .row > * {
-      padding: 0 0 0 1.25rem; }
+      /* padding: 0 0 0 1.25rem;  */
+    }
     .row.gtr-uniform {
       margin-top: -1.25rem; }
       .row.gtr-uniform > * {
