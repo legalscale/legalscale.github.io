@@ -24,7 +24,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #1f487c; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1873,6 +1873,20 @@ ul.actions {
     display: none; }
 
 /* Icons */
+.specialIcons {
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  /* margin-right: 1rem; */
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  line-height: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Icons */
 ul.icons {
   cursor: default;
   list-style: none;
@@ -1948,6 +1962,19 @@ ul.icons {
     .wrapper2 {
       padding: 2rem 0 0.1rem 0 ; } }
 
+.wrapper3 {
+  padding: 1rem 0 6rem 0 ;
+  position: relative;
+  z-index: 1; }
+  @media screen and (max-width: 1280px) {
+    .wrapper {
+      padding: 4rem 0 2rem 0 ; } }
+  @media screen and (max-width: 736px) {
+    .wrapper {
+      padding: 3rem 0 1rem 0 ; } }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      padding: 2rem 0 0.1rem 0 ; } }
 
 /* Banner */
 #banner {
@@ -1974,7 +2001,7 @@ ul.icons {
   border-top: 0;
   display: -ms-flexbox;
   /* height: 35rem !important; */
-  height: 100vh;
+  height: 75vh;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
@@ -2554,7 +2581,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2566,6 +2593,10 @@ body {
     height: 100%;
     z-index: -1;
     opacity: 0.05; }
+
+.bodyTwo:before{
+  background-image: url(../../images/bg.jpg);
+}
 
 #header {
   -moz-align-items: center;
@@ -2638,7 +2669,7 @@ body {
     padding-top: 44px; }
 
   #header {
-    height: 44px;
+    /* height: 44px; */
     line-height: 44px; } }
 @media screen and (max-width: 480px) {
   #header {
@@ -2983,3 +3014,20 @@ body.is-menu-visible #menu {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
 
+
+
+.logo-nav-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.logo-nav-bar li{
+  display: inline;
+
+}
+
+.logo-nav-bar a{
+  text-decoration: none;
+  color: white;
+  padding-right: "2%";
+}
