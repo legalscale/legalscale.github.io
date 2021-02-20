@@ -248,11 +248,18 @@ hr {
 /* Inner */
 .inner {
   margin: 0 auto;
-  width: 75rem;
-  max-width: calc(100% - 6rem); }
+  /* width: "100%"; */
+  max-width: calc(100% - 6rem); 
+}
   @media screen and (max-width: 480px) {
     .inner {
-      max-width: calc(100% - 3rem); } }
+      max-width: calc(100% - 3rem); 
+      } 
+    }
+
+.inner-title {
+  width: 75rem;
+}
 
 /* Button */
 input[type="submit"],
@@ -2395,7 +2402,7 @@ ul.icons {
 
 /* Footer */
 #footer {
-  background-color: #1f487c;
+  background: #1f487c;
   color: rgba(255, 255, 255, 0.5);
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
