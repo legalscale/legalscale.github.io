@@ -2587,6 +2587,7 @@ ul.icons {
 
 /* Header */
 body {
+  background: #1f487c;
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
