@@ -2605,7 +2605,11 @@ body {
     opacity: 0.05; }
 
 .bodyTwo:before{
+  background: #fff;
   background-image: url(../../images/bg.jpg);
+}
+.bodyTwo{
+  background: #fff;
 }
 
 #header {
